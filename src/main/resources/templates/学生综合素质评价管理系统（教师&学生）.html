@@ -1,0 +1,537 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>学生综合素质评价管理系统（教师&学生）</title>
+<!---css--->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!---css--->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!---js--->
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+<script src="js/bootstrap.js"></script>
+<!---js--->
+<!--web-fonts-->
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<link href="css/galleryeffect.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+
+
+
+ <link rel="shortcut icon" href="http://www.bjedtek.com/wp-content/themes/Enews/images/favicon.ico">
+
+    <link href="css/main.css" rel="Stylesheet">
+    <link href="css/style2.css" rel="Stylesheet">
+<!--     <script src="js/head.js">
+ -->
+<!--可无视-->
+
+<link href="css/global.css" rel="stylesheet">
+<!--必要样式-->
+<link href="css/component.css" rel="stylesheet" type="text/css" />
+<!--JS for animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+	<!--//end-animate-->
+
+
+</head>
+<style>
+		@charset "UTF-8";
+	/* header */
+	.header{position:relative;height:150px;top:30px;width:80%;margin-left:5%}
+	.header .logo{display:block;width:75%;padding:10px 0 0 10px;}
+	.header .logo img{display:block;width:100%;}
+	.header .search{position:absolute;top:0;right:35px;z-index:1000;display:block;width:50px;height:50px;text-indent:-9999em;background:url(../images/icon-search.png) no-repeat center center;background-size:40%;}
+	.header .search:hover{background-color:#0067d2;}
+	.header .search span{display:none;}
+	.header .user-icon{position:absolute;top:0;right:70px;z-index:1000;display:block;width:50px;height:50px;text-indent:-9999em;background:url(../images/icon-user.png) no-repeat center center;background-size:40%;}
+	.header .user-icon span{display:none;}
+	.header .user-icon:hover{background-color:#0067d2;}
+	.header .back{position:absolute;top:0;left:0;display:block;width:50px;height:50px;text-indent:-9999em;background:url(../images/icon-back.png) no-repeat center center;background-size:12px 20px;}
+	
+	/* @media (min-width:641px){body{width:640px;margin:auto;}} */
+</style>
+<body>
+<!---header--->
+	<header class="visible-md visible-lg" style="position: relative; z-index: 99; background: rgb(255, 255, 255); top: 0px; margin-top: 0px;">
+        <div class="navbar">
+            <div class="line" style="height: 4px; width: 85px; background: none 0% 0% repeat scroll rgb(0, 61, 121); position: absolute; top: 0px; z-index: 100; left: 813px;"></div>
+            <div class="logo">
+                <img src="images/logo.png" style="width: 327px;height: 55px;margin-top: 15px;">
+            </div>
+            <div class="nav">
+                <ol>
+                    <li class="navbg">
+                        <p class="phead" id="nav1"><a href="index"><span>&nbsp;首页</span></a></p>
+                    </li>
+                    <li class="navbg">
+                        <p class="phead" id="nav2"><a class="showhide" href="移动安全-移动安全管理平台"><span>产品展示</span></a></p>
+                        <div class="dmise_product" style="display: none; height: 350px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                            <ul>
+                                <li>
+                                    <a href="#" class="dmisec_hover">移动安全</a>
+                                </li>
+                                <li>
+                                    <a href="#">安全服务</a>
+                                </li>
+                                <li>
+                                    <a href="#">溯源营销</a>
+                                </li>
+                                <li>
+                                    <a href="#">教育服务</a>
+                                </li>
+                            </ul>
+                            <section class="dimec_mobile">
+                                <ol style="display: block;">
+                                    <li><a href="移动安全-移动安全管理平台">移动安全管理平台</a></li>
+                                    <li><a href="移动安全-移动应用平台">移动应用平台</a></li>
+                                    <li><a href="移动安全-移动应用安全检测系统">移动应用检测系统</a></li>
+                                    <li><a href="移动安全-移动应用加固系统">移动应用加固系统</a></li>
+                                    <li><a href="移动安全-移动推送管理系统">移动推送管理系统</a></li>
+                                    <li><a href="移动安全-移动应用安全预警系统">移动应用安全预警系统</a></li>
+                                    <li><a href="移动安全-移动应用态势感知系统">移动应用态势感知系统</a></li>
+                                </ol>
+                                <ol style="display: none;">
+                                    <li><a href="安全服务-教育培训">教育培训</a></li>
+                                    <li><a href="安全服务-风险评估">风险评估</a></li>
+                                    <li><a href="安全服务-等保评测">等保测评</a></li>
+                                </ol>
+                                <ol style="display: none;">
+                                    <li><a href="溯源营销-农产品营销系统">农产品营销系统</a></li>
+                                    <li><a href="溯源营销-电商系统">电商系统</a></li>
+                                    <li><a href="溯源营销-农产品溯源平台">农产品溯源平台</a></li>
+                                </ol>
+                                <ol style="display: none;">
+                                    <li><a href="中小学素质测评系统 V3.0 简介（一）">中小学素质测评系统</a></li>
+                                    <li><a href="学生综合素质评价管理系统（教师&amp;学生）">学生综合素质评价管理系统</a></li>
+                                    <li><a href="人事考评系统（政府&amp;企业）">人事考评系统</a></li>
+                                </ol>
+
+                            </section>
+                        </div>
+                    </li>
+                    <li class="navbg">
+                        <p class="phead" id="nav3"><a class="showhide" href="解决方案-统一认证"><span>解决方案</span></a></p>
+                        <div class="dmisec_fa" style="display: none; height: 100px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                            <ul>
+                                <li> <a href="解决方案-统一认证">统一认证解决方案</a></li>
+                                <li><a href="解决方案-溯源营销"> 溯源营销解决方案</a></li>
+                                <li><a href="解决方案-网路扶贫"> 网络扶贫解决方案</a></li>
+                                <li><a href="解决方案-移动安全接入"> 移动安全接入解决方案</a></li>
+                                <li><a href="解决方案-移动安全一体化">移动安全一体化解决方案</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbg">
+                        <p class="phead" id="nav4"><a class="showhide" href="成功案例-政府管理"><span>成功案例</span></a></p>
+                        <div class="dmisec_fa" style="display: none; height: 100px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                            <ul>
+                                <li><a href="成功案例-政府管理"> 政府管理</a></li>
+                                <li><a href="成功案例-公安机关"> 公安机关</a></li>
+                                <li><a href="成功案例-金融证券"> 金融证券</a></li>
+                                <li><a href="成功案例-教育机构">教育机构</a></li>
+                                <li><a href="成功案例-医疗卫生"> 医疗卫生</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbg">
+                        <p class="phead" id="nav6"><a href="../static/news.html"><span>公司动态</span></a></p>
+
+                    </li>
+                    <li class="navbg">
+                        <p class="phead" id="nav7"><a class="showhide" href="简介"><span>关于我们</span></a></p>
+                        <div class="dmisec_fa" style="display: none; height: 100px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                            <ul>
+                                <li><a href="简介">公司简介</a></li>
+                                <li><a href="contect">联系我们</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </header>
+<!-- 导航条开始 -->
+<div class="header visible-sm visible-xs">
+
+	<a href="" class="logo"><img src="images/logo.png"></a>
+
+	<!-- <a href="http://www.jq22.com/" class="search"><span>目的地搜索</span></a>
+
+	<a href="http://www.jq22.com/" class="user-icon"><span>用户中心</span></a> -->
+
+	<div id="dl-menu" class="dl-menuwrapper">
+
+		<button id="dl-menu-button">Open Menu</button>
+
+		<ul class="dl-menu">
+
+			<li><a href="">首页</a></li>
+
+			<li>
+				<a href="Line">产品展示</a>
+
+				<ul class="dl-submenu">
+
+					<li class="dl-back"><a href="#">返回上一级</a></li>
+
+					<li>
+						<a href="Line">移动安全</a>
+		
+						<ul class="dl-submenu">
+		
+							<li class="dl-back"><a href="#">返回上一级</a></li>
+							 		<li><a href="移动安全-移动安全管理平台">移动安全管理平台</a></li>
+                                    <li><a href="移动安全-移动应用平台">移动应用平台</a></li>
+                                    <li><a href="移动安全-移动应用安全检测系统">移动应用检测系统</a></li>
+                                    <li><a href="移动安全-移动应用加固系统">移动应用加固系统</a></li>
+                                    <li><a href="移动安全-移动推送管理系统">移动推送管理系统</a></li>
+                                    <li><a href="移动安全-移动应用安全预警系统">移动应用安全预警系统</a></li>
+                                    <li><a href="移动安全-移动应用态势感知系统">移动应用态势感知系统</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="Line">安全服务</a>
+		
+						<ul class="dl-submenu">
+		
+							<li class="dl-back"><a href="#">返回上一级</a></li>
+							<li><a href="安全服务-教育培训">教育培训</a></li>
+                            <li><a href="安全服务-风险评估">风险评估</a></li>
+                            <li><a href="安全服务-等保评测">等保测评</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="Line">溯源营销</a>
+		
+						<ul class="dl-submenu">
+		
+							<li class="dl-back"><a href="#">返回上一级</a></li>
+							<li><a href="安全服务-教育培训">教育培训</a></li>
+                            <li><a href="安全服务-风险评估">风险评估</a></li>
+                            <li><a href="安全服务-等保评测">等保测评</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="Line">教育服务</a>
+		
+						<ul class="dl-submenu">
+		
+							<li class="dl-back"><a href="#">返回上一级</a></li>
+							 <li><a href="中小学素质测评系统 V3.0 简介（一）">中小学素质测评系统</a></li>
+                             <li><a href="学生综合素质评价管理系统（教师&amp;学生）">学生综合素质评价管理系统</a></li>
+                             <li><a href="人事考评系统（政府&amp;企业）">人事考评系统</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="Line">解决方案</a>
+		
+				<ul class="dl-submenu">
+		
+					<li class="dl-back"><a href="#">返回上一级</a></li>
+					 <li> <a href="解决方案-统一认证">统一认证解决方案</a></li>
+                     <li><a href="解决方案-溯源营销"> 溯源营销解决方案</a></li>
+                     <li><a href="解决方案-网路扶贫"> 网络扶贫解决方案</a></li>
+                     <li><a href="解决方案-移动安全接入"> 移动安全接入解决方案</a></li>
+                     <li><a href="解决方案-移动安全一体化">移动安全一体化解决方案</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="Line">成功案例</a>
+		
+				<ul class="dl-submenu">
+		
+					<li class="dl-back"><a href="#">返回上一级</a></li>
+				 	<li><a href="成功案例-政府管理"> 政府管理</a></li>
+                    <li><a href="成功案例-公安机关"> 公安机关</a></li>
+                    <li><a href="成功案例-金融证券"> 金融证券</a></li>
+                    <li><a href="成功案例-教育机构">教育机构</a></li>
+                    <li><a href="成功案例-医疗卫生"> 医疗卫生</a></li>
+				</ul>
+			</li>		
+
+			<li><a href="news">公司动态</a></li>
+			
+			<li>
+				<a href="Line">关于我们</a>
+		
+				<ul class="dl-submenu">
+					<li class="dl-back"><a href="#">返回上一级</a></li>
+					 <li><a href="简介">公司简介</a></li>
+                     <li><a href="contect">联系我们</a></li>
+				</ul>
+			</li>		
+		</ul>
+
+	</div>
+
+</div>
+<!---banner--->
+			<div class="banner banner17 wow fadeInDownBig animated animated" data-wow-delay="0.4s">
+			
+                <div class="banner_main" style="position: absolute;width: 100%;">
+                    
+                </div>
+              <div style="position:absolute;z-index:10; height:396px;width: 100%;margin-top:9%;">
+                <h1 style="color:#fff;">学生综合素质评价管理系统（教师&学生）</h1>
+                <!-- <h2>准确评估风险，为您保驾护航</h2> -->
+              </div>
+           
+			</div>
+			
+<div class="container train trainers-section wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+        
+        <div class="row cpjjcontainer">
+            <div id="ccc" class="cpjj">
+                <div>
+                    <div class="col-md-6 fit-grid" style="display: flex;justify-content: center;align-items: center;padding:5em 1em;">
+                        <img src="schoolpic/pjjj_004-1024x489.jpg" alt="" style="max-width:100%;">
+                    </div>
+                    <div class="col-md-6 fit-grid" style="padding:5em 1em;">
+                         <div class="train cpjjff flyright  hvr-bounce-to-right">
+                          <!--   <h1>风险评估</h1> -->
+                           
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前通行的评价体系注重评价主体的多元化，主张教师、学生、家长的共同参与和交互，实现自评、互评、教师评、家长评等各方面的综合 。
+对学生的评价一般包括：学生自评、同学互评、教师评、家长评。
+对教师的评价一般包括：教师自评、同事评、学生评、家长评。
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+           <div class="row cpjjcontainer">
+            <div id="ccc" class="cpjj">
+                <div>
+                    <div class="col-md-6 fit-grid" style="display: flex;justify-content: center;align-items: center;padding:5em 1em;">
+                        <img src="schoolpic/pjjj_009-1024x492.jpg" alt="" style="max-width:100%;">
+                    </div>
+                    <div class="col-md-6 fit-grid" style="padding:5em 1em;">
+                         <div class="train cpjjff flyright  hvr-bounce-to-right">
+                          <!--   <h1>风险评估</h1> -->
+                         
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对学生的基础性发展目标评价，一般在六个维度上进行：道德品质、公民素养、学习能力、交流与合作能力、运动与健康、审美与表现。每个维度下通常又扩展为多个评价项。
+如果以填写纸质评价表的方法来进行，每评一个同学，就要填写十几项或几十项，这样逐个评完所有同学。评价完成后，每个班就要回收两、三千份的评价表。
+这种方式的缺陷是显而易见的：
+数据量巨大，不易统计。
+过程繁琐，资源消耗过多。
+易出错，且难以发现并纠正。
+中小学生面对繁琐的评价过程易产生厌烦、抵触情绪。
+若被评价人对结果提出质疑，核对原始数据的工作会相当困难 。
+环节多，过程长，容易出现漏洞或失误，给弄虚作假、违规操作提供可能。
+为了解决这些问题，我们与教育界专家合作，开发了这一款《综合素质评价管理系统》，实现网上在线评价，将全部的计算工作交给计算机处理，使得上述问题迎刃而解。
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div class="row cpjjcontainer">
+            <div id="ccc" class="cpjj">
+                <div>
+                    <div class="col-md-6 fit-grid" style="display: flex;justify-content: center;align-items: center;padding:5em 1em;">
+                        <img src="schoolpic/pjjj_10.jpg" alt="" style="max-width:100%;">
+                    </div>
+                    <div class="col-md-6 fit-grid" style="padding:5em 1em;">
+                         <div class="train cpjjff flyright  hvr-bounce-to-right">
+                          <!--   <h1>风险评估</h1> -->
+                           
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忠实记录每一个评价数据，保证评价结果的准确无误。
+操作简单方便。
+基于现有的局域网或互联网，无需配置其它硬件设备。
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div class="row cpjjcontainer">
+            <div id="ccc" class="cpjj">
+                <div>
+                    <div class="col-md-6 fit-grid" style="display: flex;justify-content: center;align-items: center;padding:5em 1em;">
+                        <img src="schoolpic/pjjj_11.jpg" alt="" style="max-width:100%;">
+                    </div>
+                    <div class="col-md-6 fit-grid" style="padding:5em 1em;">
+                         <div class="train cpjjff flyright  hvr-bounce-to-right">
+                          <!--   <h1>风险评估</h1> -->
+                           
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一位老师即可轻松承担全校的评价管理工作。
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div class="row cpjjcontainer">
+            <div id="ccc" class="cpjj">
+                <div>
+                    <div class="col-md-6 fit-grid" style="display: flex;justify-content: center;align-items: center;padding:5em 1em;">
+                        <img src="schoolpic/pjjj_121-1024x971.jpg" alt="" style="max-width:100%;">
+                    </div>
+                    <div class="col-md-6 fit-grid" style="padding:5em 1em;">
+                         <div class="train cpjjff flyright  hvr-bounce-to-right">
+                          <!--   <h1>风险评估</h1> -->
+                           
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div class="row cpjjcontainer">
+            <div id="ccc" class="cpjj">
+                <div>
+                    <div class="col-md-6 fit-grid" style="display: flex;justify-content: center;align-items: center;padding:5em 1em;">
+                        <img src="schoolpic/pjjj_15-1024x606.jpg" alt="" style="max-width:100%;">
+                    </div>
+                    <div class="col-md-6 fit-grid" style="padding:5em 1em;">
+                         <div class="train cpjjff flyright  hvr-bounce-to-right">
+                          <!--   <h1>风险评估</h1> -->
+                           
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;操作流程:
+                                如果仅在学校局域网中应用，那么可以在局域网内 的任何电脑上进行评价。
+如果开放到互联网，那么在能上网的地方都可以评价，更加方便家长的参与。
+各类评价结果可以按任意权重综合以适应各学校的具体情况，图是某学校的综合办法。
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <div class="row cpjjcontainer">
+            <div id="ccc" class="cpjj">
+                <div>
+                    <div class="col-md-6 fit-grid" style="display: flex;justify-content: center;align-items: center;padding:5em 1em;">
+                        <img src="schoolpic/pjjj_23.jpg" alt="" style="max-width:100%;">
+                    </div>
+                    <div class="col-md-6 fit-grid" style="padding:5em 1em;">
+                         <div class="train cpjjff flyright  hvr-bounce-to-right">
+                          <!--   <h1>风险评估</h1> -->
+                          
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;深度分析功能，可方便的生成各类分析图表。
+评价结果报表输出到网页或Excel文件。
+自动生成各学期发展报告册。
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+           
+
+      
+
+
+
+<!-- //gallery -->
+<!---底部标题区开始--->
+    <div class="footer-section">
+        <div class="container">
+            <div class="footer-grids">
+                <div class="col-md-3 footer-grid wow fadeInLeft animated animated" data-wow-delay="0.4s">
+                    <h4 style="font-family:黑体">产品展示</h4>
+                    <ul>
+                        <li><a href="移动安全-移动安全管理平台">移动安全管理平台</a></li>
+                        <li><a href="移动安全-移动应用平台">移动应用平台</a></li>
+                        <li><a href="移动安全-移动应用加固系统">移动应用加固系统</a></li>
+                        <li><a href="移动安全-移动应用安全检测系统">移动应用安全监测系统</a></li>
+                        <li><a href="移动安全-移动应用加固系统">服务器加固系统</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                    <h4 style="font-family:黑体">解决方案</h4>
+                    <ul>
+                        <li><a href="解决方案-统一认证">统一认证</a></li>
+                        <li><a href="解决方案-溯源营销">溯源营销</a></li>
+                        <li><a href="解决方案-网路扶贫">网络扶贫</a></li>
+                        <li><a href="解决方案-移动安全接入">安全接入</a></li>
+                        <li><a href="解决方案-移动安全一体化">移动安全一体化</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                    <h4 style="font-family:黑体">成功案例</h4>
+                    <ul>
+                        <li><a href="成功案例-政府管理">成功案例</a></li>
+                        <li><a href="成功案例-政府管理">政府管理</a></li>
+                        <li><a href="成功案例-公安机关">公安机关</a></li>
+                        <li><a href="成功案例-金融证券">金融证券</a></li>
+                        <li><a href="成功案例-教育机构">教育机构</a></li>
+                        <li><a href="成功案例-医疗卫生">医疗卫生</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                    <h4 style="font-family:黑体">合作发展</h4>
+                    <ul>
+                        <li><a href="contect">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                    <h4 style="font-family:黑体">关于我们</h4>
+                    <ul>
+                        <li><a href="简介">企业简介</a></li>
+                        <li><a href="news">公司动态</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+	<!---底部标题区结束--->
+
+	<!--版权区开始-->
+	<div class="copy-section wow fadeInDownBig animated animated" data-wow-delay="0.4s">
+		<div class="container">
+				<div class="social-icons">
+					<a href="#"><i class="icon"></i></a>
+					<a href="#"><i class="icon1"></i></a>
+					<a href="#"><i class="icon2"></i></a>
+					<a href="#"><i class="icon3"></i></a>
+				</div>
+			<p>Copyright &copy;2018 祎德科技版权所有</p>
+		</div>
+	</div>
+	<!--版权区结束-->
+    <script src="js/product.js"></script>
+    <script type="text/javascript">
+    	// 	line 下标
+		var lastLeft=$(".navbg").eq(1).position().left+25;
+	    $(".line").stop().animate({"left":lastLeft});
+	    $(".navbg").mouseenter(function () {
+	        $(".line").stop().animate({"left":$(this).position().left+30},'fast');
+	    });
+	    $(".navbg").mouseleave(function () {
+	        $(".line").stop().animate({"left":lastLeft});
+	        $('.dmise_product>ul>li>a').removeClass();
+	        $('.dmise_product>ul>li>a:first').addClass("dmisec_hover");
+	        $('.dimec_mobile>ol').hide().eq(0).show();
+	    });
+	     $(function(){
+			$( '#dl-menu' ).dlmenu();
+		});
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

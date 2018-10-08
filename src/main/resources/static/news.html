@@ -1,0 +1,543 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>公司动态</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!---css--->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/galleryeffect.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link href="css/main.css" rel="Stylesheet">
+    <link href="css/style2.css" rel="Stylesheet">
+    <link rel="stylesheet" href="css/newsinfo.css">
+    <link rel="stylesheet" type="css/text/css" href="css/paging.css">
+    <!---css--->
+    <!---js--->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!---js--->
+    <!--web-fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+
+
+
+
+    <link rel="shortcut icon" href="http://www.bjedtek.com/wp-content/themes/Enews/images/favicon.ico">
+
+
+    <!--     <script src="js/head.js">
+     -->
+    <!--可无视-->
+
+    <link href="css/global.css" rel="stylesheet">
+    <!--必要样式-->
+    <link href="css/component.css" rel="stylesheet" type="text/css" />
+    <!--JS for animate-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//end-animate-->
+
+
+</head>
+<style>
+    @charset "UTF-8";
+    /* header */
+    .header{position:relative;height:150px;top:30px;width:80%;margin-left:5%}
+    .header .logo{display:block;width:75%;padding:10px 0 0 10px;}
+    .header .logo img{display:block;width:100%;}
+    .header .search{position:absolute;top:0;right:35px;z-index:1000;display:block;width:50px;height:50px;text-indent:-9999em;background:url(../images/icon-search.png) no-repeat center center;background-size:40%;}
+    .header .search:hover{background-color:#0067d2;}
+    .header .search span{display:none;}
+    .header .user-icon{position:absolute;top:0;right:70px;z-index:1000;display:block;width:50px;height:50px;text-indent:-9999em;background:url(../images/icon-user.png) no-repeat center center;background-size:40%;}
+    .header .user-icon span{display:none;}
+    .header .user-icon:hover{background-color:#0067d2;}
+    .header .back{position:absolute;top:0;left:0;display:block;width:50px;height:50px;text-indent:-9999em;background:url(../images/icon-back.png) no-repeat center center;background-size:12px 20px;}
+
+    /* @media (min-width:641px){body{width:640px;margin:auto;}} */
+</style>
+<body>
+<!---header--->
+
+<header class="visible-md visible-lg" style="position: relative; z-index: 99; background: rgb(255, 255, 255); top: 0px; margin-top: 0px;">
+    <div class="navbar">
+        <div class="line" style="height: 4px; width: 85px; background: none 0% 0% repeat scroll rgb(0, 61, 121); position: absolute; top: 0px; z-index: 100; left: 813px;"></div>
+        <div class="logo">
+            <img src="images/logo.png" style="width: 327px;height: 55px;margin-top: 15px;">
+        </div>
+        <div class="nav">
+            <ol>
+                <li class="navbg">
+                    <p class="phead" id="nav1"><a href="index"><span>&nbsp;首页</span></a></p>
+                </li>
+                <li class="navbg">
+                    <p class="phead" id="nav2"><a class="showhide" href="移动安全-移动安全管理平台"><span>产品展示</span></a></p>
+                    <div class="dmise_product" style="display: none; height: 350px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <ul>
+                            <li>
+                                <a href="#" class="dmisec_hover">移动安全</a>
+                            </li>
+                            <li>
+                                <a href="#">安全服务</a>
+                            </li>
+                            <li>
+                                <a href="#">溯源营销</a>
+                            </li>
+                            <li>
+                                <a href="#">教育服务</a>
+                            </li>
+                        </ul>
+                        <section class="dimec_mobile">
+                            <ol style="display: block;">
+                                <li><a href="移动安全-移动安全管理平台">移动安全管理平台</a></li>
+                                <li><a href="移动安全-移动应用平台">移动应用平台</a></li>
+                                <li><a href="移动安全-移动应用安全检测系统">移动应用检测系统</a></li>
+                                <li><a href="移动安全-移动应用加固系统">移动应用加固系统</a></li>
+                                <li><a href="移动安全-移动推送管理系统">移动推送管理系统</a></li>
+                                <li><a href="移动安全-移动应用安全预警系统">移动应用安全预警系统</a></li>
+                                <li><a href="移动安全-移动应用态势感知系统">移动应用态势感知系统</a></li>
+                            </ol>
+                            <ol style="display: none;">
+                                <li><a href="安全服务-教育培训">教育培训</a></li>
+                                <li><a href="安全服务-风险评估">风险评估</a></li>
+                                <li><a href="安全服务-等保评测">等保测评</a></li>
+                            </ol>
+                            <ol style="display: none;">
+                                <li><a href="溯源营销-农产品营销系统">农产品营销系统</a></li>
+                                <li><a href="溯源营销-电商系统">电商系统</a></li>
+                                <li><a href="溯源营销-农产品溯源平台">农产品溯源平台</a></li>
+                            </ol>
+                            <ol style="display: none;">
+                                <li><a href="中小学素质测评系统 V3.0 简介（一）">中小学素质测评系统</a></li>
+                                <li><a href="学生综合素质评价管理系统（教师&amp;学生）">学生综合素质评价管理系统</a></li>
+                                <li><a href="人事考评系统（政府&amp;企业）">人事考评系统</a></li>
+                            </ol>
+
+                        </section>
+                    </div>
+                </li>
+                <li class="navbg">
+                    <p class="phead" id="nav3"><a class="showhide" href="解决方案-统一认证"><span>解决方案</span></a></p>
+                    <div class="dmisec_fa" style="display: none; height: 100px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <ul>
+                            <li> <a href="解决方案-统一认证">统一认证解决方案</a></li>
+                            <li><a href="解决方案-溯源营销"> 溯源营销解决方案</a></li>
+                            <li><a href="解决方案-网路扶贫"> 网络扶贫解决方案</a></li>
+                            <li><a href="解决方案-移动安全接入"> 移动安全接入解决方案</a></li>
+                            <li><a href="解决方案-移动安全一体化">移动安全一体化解决方案</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbg">
+                    <p class="phead" id="nav4"><a class="showhide" href="成功案例-政府管理"><span>成功案例</span></a></p>
+                    <div class="dmisec_fa" style="display: none; height: 100px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <ul>
+                            <li><a href="成功案例-政府管理"> 政府管理</a></li>
+                            <li><a href="成功案例-公安机关"> 公安机关</a></li>
+                            <li><a href="成功案例-金融证券"> 金融证券</a></li>
+                            <li><a href="成功案例-教育机构">教育机构</a></li>
+                            <li><a href="成功案例-医疗卫生"> 医疗卫生</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbg">
+                    <p class="phead" id="nav6"><a href="news.html"><span>公司动态</span></a></p>
+
+                </li>
+                <li class="navbg">
+                    <p class="phead" id="nav7"><a class="showhide" href="简介"><span>关于我们</span></a></p>
+                    <div class="dmisec_fa" style="display: none; height: 100px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <ul>
+                            <li><a href="简介">公司简介</a></li>
+                            <li><a href="contect">联系我们</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</header>
+<!-- 导航条开始 -->
+<div class="header visible-sm visible-xs">
+
+    <a href="" class="logo"><img src="images/logo.png"></a>
+
+    <!-- <a href="http://www.jq22.com/" class="search"><span>目的地搜索</span></a>
+
+    <a href="http://www.jq22.com/" class="user-icon"><span>用户中心</span></a> -->
+
+    <div id="dl-menu" class="dl-menuwrapper">
+
+        <button id="dl-menu-button">Open Menu</button>
+
+        <ul class="dl-menu">
+
+            <li><a href="">首页</a></li>
+
+            <li>
+                <a href="Line">产品展示</a>
+
+                <ul class="dl-submenu">
+
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+
+                    <li>
+                        <a href="Line">移动安全</a>
+
+                        <ul class="dl-submenu">
+
+                            <li class="dl-back"><a href="#">返回上一级</a></li>
+                            <li><a href="移动安全-移动安全管理平台">移动安全管理平台</a></li>
+                            <li><a href="移动安全-移动应用平台">移动应用平台</a></li>
+                            <li><a href="移动安全-移动应用安全检测系统">移动应用检测系统</a></li>
+                            <li><a href="移动安全-移动应用加固系统">移动应用加固系统</a></li>
+                            <li><a href="移动安全-移动推送管理系统">移动推送管理系统</a></li>
+                            <li><a href="移动安全-移动应用安全预警系统">移动应用安全预警系统</a></li>
+                            <li><a href="移动安全-移动应用态势感知系统">移动应用态势感知系统</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Line">安全服务</a>
+
+                        <ul class="dl-submenu">
+
+                            <li class="dl-back"><a href="#">返回上一级</a></li>
+                            <li><a href="安全服务-教育培训">教育培训</a></li>
+                            <li><a href="安全服务-风险评估">风险评估</a></li>
+                            <li><a href="安全服务-等保评测">等保测评</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Line">溯源营销</a>
+
+                        <ul class="dl-submenu">
+
+                            <li class="dl-back"><a href="#">返回上一级</a></li>
+                            <li><a href="安全服务-教育培训">教育培训</a></li>
+                            <li><a href="安全服务-风险评估">风险评估</a></li>
+                            <li><a href="安全服务-等保评测">等保测评</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Line">教育服务</a>
+
+                        <ul class="dl-submenu">
+
+                            <li class="dl-back"><a href="#">返回上一级</a></li>
+                            <li><a href="中小学素质测评系统 V3.0 简介（一）">中小学素质测评系统</a></li>
+                            <li><a href="学生综合素质评价管理系统（教师&amp;学生）">学生综合素质评价管理系统</a></li>
+                            <li><a href="人事考评系统（政府&amp;企业）">人事考评系统</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="Line">解决方案</a>
+
+                <ul class="dl-submenu">
+
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li> <a href="解决方案-统一认证">统一认证解决方案</a></li>
+                    <li><a href="解决方案-溯源营销"> 溯源营销解决方案</a></li>
+                    <li><a href="解决方案-网路扶贫"> 网络扶贫解决方案</a></li>
+                    <li><a href="解决方案-移动安全接入"> 移动安全接入解决方案</a></li>
+                    <li><a href="解决方案-移动安全一体化">移动安全一体化解决方案</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="Line">成功案例</a>
+
+                <ul class="dl-submenu">
+
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="成功案例-政府管理"> 政府管理</a></li>
+                    <li><a href="成功案例-公安机关"> 公安机关</a></li>
+                    <li><a href="成功案例-金融证券"> 金融证券</a></li>
+                    <li><a href="成功案例-教育机构">教育机构</a></li>
+                    <li><a href="成功案例-医疗卫生"> 医疗卫生</a></li>
+                </ul>
+            </li>
+
+            <li><a href="news">公司动态</a></li>
+
+            <li>
+                <a href="Line">关于我们</a>
+
+                <ul class="dl-submenu">
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="简介">公司简介</a></li>
+                    <li><a href="contect">联系我们</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+<section class="section" id="pc">
+    <div class="newsinfohead">
+        <a class="hovera aaa1" href="#news1">公司动态<span class="hoverspan"></span></a>
+    </div>
+    <div id="news1" class="newsinfodetail hoverdiv">
+
+        <ul id="newsList" th:each="article  : ${articles.content}">
+            <li>
+                <a href="" th:href="@{${article.url}}" >
+                    <div class="newscontainer">
+                        <div class="containerright">
+                            <div class="righthead">
+                                <h1 th:text="${article.name}"></h1>
+                                <h2 th:text="${article.date}"></h2>
+                            </div>
+                            <p th:text="${article.summary}"></p>
+                            <!--<p>-->
+                            <!--祎德科技深入理解政府移动信息化需求，凭借丰富的政府行业移动应用和管理经验，围绕政府行政办公、智慧门户、移动公安、移动城管、移动执法、公众服务等业务提供快速、安全、高效的移动应用整体解决方案，帮助政府职能部门及公共事业单位实现移动信息化转型，提高政府信息化水平，助力政府进一步实现建设成为智慧政府、阳光政府、服务型政府的目标。-->
+                            <!--</p>-->
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="changed">
+        <nav aria-label="Page navigation">
+            <ul class="pagination" >
+                <!-- 上一页 -->
+                <li class="page-item" data-th-classappend="*{first} ? 'disabled' : ''">
+                    <a th:href="@{applyList(currentPage = ${currentPage} - 1 )}" class="page-link" data-th-attr="pageIndex=${currentPage} - 1" aria-label="Previous">
+                        <span aria-hidden="true">«</span>
+                    </a>
+                </li>
+
+                <!-- 迭代生成页码 -->
+                <li class="page-item" data-th-each="i : ${#numbers.sequence(1, articles.getTotalPages())}"
+                    data-th-classappend="${(currentPage + 1) eq i} ? 'active' : ''" >
+                    <a class="page-link" data-th-attr="pageIndex=${i} - 1" th:href="@{applyList(currentPage = ${i})}">
+                        <span data-th-text="${i}"></span>
+                    </a>
+                </li>
+
+                <!-- 下一页 -->
+                <li class="page-item" data-th-classappend="*{last} ? 'disabled' : ''">
+                    <a th:href="@{applyList(currentPage = ${currentPage} + 1 )}" class="page-link" data-th-attr="pageIndex=${currentPage} + 1" aria-label="Next">
+                        <span aria-hidden="true">»</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!--<nav aria-label="Page navigation">-->
+        <!--<ul class="pagination">-->
+        <!--<li>-->
+        <!--<div>-->
+        <!--总条数：<span th:text="${articles.getTotalElements()}"></span>&nbsp;&nbsp;-->
+        <!--总页数：<span th:text="${articles.getTotalPages()}"></span>&nbsp;&nbsp;-->
+        <!--当前页码：<span th:text="${currentPage}"></span>-->
+        <!--</div>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<a th:href="@{applyList(currentPage=0)}" aria-label="Previous">-->
+        <!--<span aria-hidden="true">&laquo;首页</span>-->
+        <!--</a>-->
+        <!--</li>-->
+        <!--<li th:if="${currentPage gt 0} ">-->
+        <!--<a  th:href="@{applyList(currentPage = ${currentPage} - 1 )}" aria-label="Previous">-->
+        <!--<span aria-hidden="true">&laquo;上一页</span>-->
+        <!--</a>-->
+        <!--</li>-->
+
+        <!--<li th:if="${currentPage lt articles.getTotalPages()-1  } ">-->
+        <!--<a th:href="@{applyList(currentPage = ${currentPage} + 1 )}" aria-label="Next">-->
+        <!--<span aria-hidden="true">下一页&raquo;</span>-->
+        <!--</a>-->
+        <!--</li>-->
+
+        <!--&lt;!&ndash;<li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<a th:href="@{/permission/applyList/(currentPage=${page.totalPageCount},pageSize=${page.pageSize} )}" aria-label="Next">&ndash;&gt;-->
+        <!--&lt;!&ndash;<span aria-hidden="true">尾页&raquo;</span>&ndash;&gt;-->
+        <!--&lt;!&ndash;</a>&ndash;&gt;-->
+        <!--&lt;!&ndash;</li>&ndash;&gt;-->
+
+        <!--</ul>-->
+        <!--</nav>-->
+
+    </div>
+    <!--<div id="allnews"></div>-->
+</section>
+<div class="panel panel-default" id="Mobile">
+    <!-- Default panel contents -->
+    <div class="panel-heading"><h3 class="text-center">test</h3></div>
+    <div class="panel-body">
+    </div>
+
+    <!-- List group -->
+    <ul id="MList" th:each="article  : ${articles.content}">
+        <li>
+            <a href="" th:href="@{${article.url}}">
+                <div class="container">
+                    <div class="container">
+                        <div class="righthead">
+                            <h1 th:text="${article.name}"></h1>
+                            <h2 th:text="${article.date}"></h2>
+                        </div>
+                        <br>
+                        <p th:text="${article.summary}"></p>
+                    </div>
+                </div>
+            </a>
+            <br>
+            <br>
+        </li>
+    </ul>
+    <nav aria-label="Page navigation">
+        <ul class="pagination" >
+            <!-- 上一页 -->
+            <li class="page-item" data-th-classappend="*{first} ? 'disabled' : ''">
+                <a th:href="@{applyList(currentPage = ${currentPage} - 1 )}" class="page-link" data-th-attr="pageIndex=${currentPage} - 1" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+
+            <!-- 迭代生成页码 -->
+            <li class="page-item" data-th-each="i : ${#numbers.sequence(1, articles.getTotalPages())}"
+                data-th-classappend="${(currentPage) eq i} ? 'active' : ''" >
+                <a class="page-link" data-th-attr="pageIndex=${i}" th:href="@{applyList(currentPage=0)}">
+                    <span data-th-text="${i}"></span>
+                </a>
+            </li>
+
+            <!-- 下一页 -->
+            <li class="page-item" data-th-classappend="*{last} ? 'disabled' : ''">
+                <a th:href="@{applyList(currentPage = ${currentPage} + 1 )}" class="page-link" data-th-attr="pageIndex=${currentPage} + 1" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!-- //gallery -->
+<div class="footer-section">
+    <div class="container">
+        <div class="footer-grids">
+            <div class="col-md-3 footer-grid wow fadeInLeft animated animated" data-wow-delay="0.4s">
+                <h4 style="font-family:黑体">产品展示</h4>
+                <ul>
+                    <li><a href="移动安全-移动安全管理平台">移动安全管理平台</a></li>
+                    <li><a href="移动安全-移动应用平台">移动应用平台</a></li>
+                    <li><a href="移动安全-移动应用加固系统">移动应用加固系统</a></li>
+                    <li><a href="移动安全-移动应用安全检测系统">移动应用安全监测系统</a></li>
+                    <li><a href="移动安全-移动应用加固系统">服务器加固系统</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                <h4 style="font-family:黑体">解决方案</h4>
+                <ul>
+                    <li><a href="解决方案-统一认证">统一认证</a></li>
+                    <li><a href="解决方案-溯源营销">溯源营销</a></li>
+                    <li><a href="解决方案-网路扶贫">网络扶贫</a></li>
+                    <li><a href="解决方案-移动安全接入">安全接入</a></li>
+                    <li><a href="解决方案-移动安全一体化">移动安全一体化</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                <h4 style="font-family:黑体">成功案例</h4>
+                <ul>
+                    <li><a href="成功案例-政府管理">成功案例</a></li>
+                    <li><a href="成功案例-政府管理">政府管理</a></li>
+                    <li><a href="成功案例-公安机关">公安机关</a></li>
+                    <li><a href="成功案例-金融证券">金融证券</a></li>
+                    <li><a href="成功案例-教育机构">教育机构</a></li>
+                    <li><a href="成功案例-医疗卫生">医疗卫生</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                <h4 style="font-family:黑体">合作发展</h4>
+                <ul>
+                    <li><a href="contect">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 footer-grid wow fadeInUpBig animated animated" data-wow-delay="0.4s">
+                <h4 style="font-family:黑体">关于我们</h4>
+                <ul>
+                    <li><a href="简介">企业简介</a></li>
+                    <li><a href="news">公司动态</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!---底部标题区结束--->
+<!---footer--->
+<!--copy-->
+<div class="copy-section wow fadeInDownBig animated animated" data-wow-delay="0.4s">
+    <div class="container">
+        <div class="social-icons">
+            <a href="contect"><i class="icon"></i></a>
+            <a href="contect"><i class="icon1"></i></a>
+            <a href="contect"><i class="icon2"></i></a>
+            <a href="#"><i class="icon3"></i></a>
+        </div>
+        <p>Copyright ©2018 祎德科技版权所有</p>
+    </div>
+</div>
+
+<script src="js/product.js"></script>
+<script type="text/javascript">
+    // 	line 下标
+    var Mobile = $('#Mobile')
+    Mobile.hide();
+    var pc = $('#pc')
+    pc.hide();
+    if(($(window).width())<=500) {
+        Mobile.show();
+        pc.hide();
+    }
+    else{
+        pc.show();
+        Mobile.hide();
+    }
+    var lastLeft=$(".navbg").eq(1).position().left+25;
+    $(".line").stop().animate({"left":lastLeft});
+    $(".navbg").mouseenter(function () {
+        $(".line").stop().animate({"left":$(this).position().left+30},'fast');
+    });
+    $(".navbg").mouseleave(function () {
+        $(".line").stop().animate({"left":lastLeft});
+        $('.dmise_product>ul>li>a').removeClass();
+        $('.dmise_product>ul>li>a:first').addClass("dmisec_hover");
+        $('.dimec_mobile>ol').hide().eq(0).show();
+    });
+    $(function(){
+        $( '#dl-menu' ).dlmenu();
+    });
+    $(window).resize(
+        function () {
+            if(($(window).width())<=500) {
+                Mobile.show();
+                pc.hide();
+            }
+            else{
+                pc.show();
+                Mobile.hide();
+            }
+        }
+    );
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+.banner {
+	background: url(../images/product1_0111clone.png) no-repeat 0 0;
+	background-size: cover;
+	padding-top: 0;
+	text-align: center
+}
+
+.chapyf>.chapyfcontainer {
+	background: url(../images/cpyf.png) no-repeat
+}
+
+.cpys {
+	background: url(../images/product1_08.png) no-repeat 100% 100%
+}
+
+.banner_main {
+	/*background-color: #000;*/
+	text-align: center;
+	opacity: .5
+}
+
+.banner_main {
+	width: auto;
+	margin-left: 0
+}
+
+.banner.banner2 {
+	background: url(../images/product2_01.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.cpgn_p2>div {
+	color: #000
+}
+
+.banner.banner6 {
+	background: url(../images/product6_01.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.cpgn h4 {
+	text-align: center
+}
+
+.cpgn div div {
+	float: left
+}
+
+.cpgn3_center,.cpgn3_left,.cpgn3_right,.cpgn_center,.cpgn_left,.cpgn_right {
+	display: flex
+}
+
+.banner.banner5 {
+	background: url(../images/product5_01.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.banner.banner10 {
+	background: url(../images/product10_01clone.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.trainers-section {
+	padding: 0
+}
+
+.banner.banner12 {
+	background: url(../images/product12_01clone.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.banner.banner19 {
+	background: url(../images/product19_01clone.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.banner.banner15 {
+	background: url(../images/product15_01clone.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.banner6 .banner_bg {
+	background: url(../images/product6_01clone.png) no-repeat;
+	background-size: 100% 100%
+}
+
+p {
+	text-align: center;
+	
+}
+
+/*.cpgn .cpgn3_center,.cpgn .cpgn3_left,.cpgn .cpgn3_right,.cpgn5 .cpgn3_center,.cpgn5 .cpgn3_left,.cpgn5 .cpgn3_right {
+	
+}
+*/
+.banner.banner17 {
+	background: url(../images/product17_01clone.png) no-repeat;
+	background-size: 100% 100%
+}
+
+.school1-left {
+	width: 75%
+}
+
+.school1-right {
+	width: 20%
+}
+
+.cpjj2>div>div>img {
+	width: 845px;
+	height: 475px
+}
+
+.cpjj2>div>div:first-child {
+	float: left;
+	width: 45%
+}
+
+.cpjj2>div>div:last-child {
+	float: right;
+	width: 20%
+}
+
+.cpjj2>div>div:last-child div {
+	margin-left: 10%;
+	text-align: right;
+	position: relative;
+	left: -50px;
+	opacity: 1;
+	z-index: 90
+}
+
+.cpjj2>div {
+	width: 1166px;
+	margin: 0 auto;
+	padding: 50px 0;
+	overflow: hidden
+}
+
+.cpjj2 div p {
+	padding-left: 60px;
+	font-size: 16px;
+	line-height: 24px
+}
+
+.cpjj2 div p:last-child {
+	margin-top: 20px
+}
+
+.cpjj3>div>div>img {
+	width: 676px;
+	height: 380px
+}
+
+.cpjj3>div>div:first-child {
+	float: left;
+	width: 45%
+}
+
+.cpjj3>div>div:last-child {
+	float: right;
+	width: 45%
+}
+
+.cpjj3>div>div:last-child div {
+	margin-top: 16px;
+	position: static;
+	left: 30px;
+	opacity: 1;
+	z-index: 90
+}
+
+.cpjj3>div {
+	width: 1166px;
+	margin: 0 auto;
+	padding: 50px 0;
+	overflow: hidden
+}
+
+.cpjj3 div p {
+	padding-left: 60px;
+	font-size: 16px;
+	line-height: 24px
+}
+
+.cpjj3 div p:last-child {
+	margin-top: 14px
+}
+
+.cpjjcontainer {
+	margin-top: 50px
+}
+
+.footer-section {
+	margin-top: 50px
+}
+.train{
+	background-color: #fff;
+}
+
+
+.zdykd img{
+	width: 100%;
+}
